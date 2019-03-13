@@ -1,1 +1,27 @@
+# Build settings
+markdown:         kramdown
+highlighter:      pygments
+permalink:        pretty
+paginate:         5 # jekyll-paginate plugin is enabled by default
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Social handles
+social:
+  twitter: kgeisshirt
+
+# Basic setup
+title:            Kenneth Geisshirt
+tagline:          'Chemist by education, geek by nature'
+description:      "Blogging about a science and technology - mostly"
+url:              http://kenneth.geisshirt.dk
+baseurl:          /
+
+author:
+  name:           'Kenneth Geisshirt'
+  github:         kneth
+  twitter:        kgeisshirt
+
+
 theme: jekyll-theme-hacker
